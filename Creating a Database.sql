@@ -17,7 +17,7 @@ CREATE TABLE  food (
 INSERT INTO food (food_name, food_type, contains_meat, price) 
     VALUES
     ('Pork Bun', 'Appetizer', 1, 4.50),
-    ('Spring Roll', 'Appetizer', 1, 3.00),
+('Spring Roll', 'Appetizer', 1, 3.00),
     ('Egg Roll', 'Appetizer', 1, 3.50),
     ('Xiao Long Bao', 'Appetizer', 1, 5.00),
     ('Siu Mai', 'Appetizer', 1, 4.00),
