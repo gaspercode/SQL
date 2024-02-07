@@ -1,1 +1,1 @@
-This is a sample of my SQL works!
+This is a place for samples of my SQL works!
