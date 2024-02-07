@@ -11,7 +11,7 @@ CREATE TABLE  food (
 	contains_meat BOOLEAN,
 	price DECIMAL(5,2) NOT NULL,
 	stock VARCHAR(50) NOT NULL DEFAULT 'in stock'
-    );
+        );
 
 #Here we insert values into our menu.
 INSERT INTO food (food_name, food_type, contains_meat, price) 
