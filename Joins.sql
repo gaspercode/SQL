@@ -87,7 +87,7 @@ ORDER  BY total;
 #We also add a IFNULL() statement to change any NULL values that occur to 0.
 SELECT first_name,
        last_name,
-       Ifnull(Sum(amount), 0) AS money_spent
+       IFNULL(Sum(amount), 0) AS money_spent
 FROM   customers
        LEFT JOIN orders
               ON customers.id = orders.customer_id
